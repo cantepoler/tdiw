@@ -24,9 +24,8 @@
                     <li>Menció Enginyeria del Software</li>
                     <li>Menció Enginyeria de computadors</li>
                     <li>Menció Computació</li>
-                    <li><a href="http://www.uab.cat/enginyeria" target="_blank">Menció Tecnologies de la Informació</a>
+                    <li><a href="./mencions/TI/index.html">Menció Tecnologies de la Informació</a>
                     </li>
-
                 </ul>
             </li>
             <li>Enginyeria de Sistemes de Telecomunicacions</li>
@@ -51,6 +50,13 @@
                 <option value="3">Enginyeria Electrònica de Telecomunicacions</option>
                 <option value="4">Enginyeria Química</option>
             </select>
+            <p>Tria la menció que t'atreu més:</p>
+            <select name="mencions" id="mentions">
+                <option>Menció Enginyeria del Software</option>
+                <option>Menció Enginyeria de computadors</option>
+                <option>Menció Computació</option>
+                <option>Menció Tecnologies de la Informació</option>
+            </select>
             <br>
             <input type="submit" value="Registrar-se">
         </form>
@@ -62,12 +68,38 @@
             <h3>Estadístiques de matriculació per graus</h3>
         </header>
         <table border="1">
-            <!-- completa -->
+            <tr>
+                <th colspan="2">Escola d'enginyeria</th>
+                <th colspan="2">Ciències</th>
+            </tr>
+            <tr>
+                <td>Enginyeria Informàtica</td>
+                <td>300</td>
+                <td>Matemàtiques</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td>Enginyeria de Sistemes de Telecomunicacions</td>
+                <td>150</td>
+                <td rowspan="2">Física</td>
+                <td rowspan="2">100</td>
+            </tr>
+            <tr>
+                <td>Enginyeria Química</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>Total:</td>
+                <td>750</td>
+                <td>Total</td>
+                <td>300</td>
+            </tr>
         </table>
     </section>
     <!-- SECCIÓ 5 - Peu de pàgina -->
     <footer>
-        <!-- completa -->
+        <img src="./img/campus-e.png" alt="campus-e" width="20%">
+        <p>©Universitat Autònoma de Barcelona. Campus d'Excel·lència</p>
     </footer>
 </body>
 
